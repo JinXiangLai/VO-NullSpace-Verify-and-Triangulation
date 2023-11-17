@@ -13,5 +13,5 @@ include_directories(
 #        ${Sophus_INCLUDE_DIRS}
 )
 
-add_executable(NullSpaceTest hessian_nullspace_test.cpp)
+add_executable(NullSpaceTest hessian_nullspace_verify_and_triangulation.cpp)
 #target_link_libraries(NullSpaceTest  ${Sophus_LIBRARIES})
